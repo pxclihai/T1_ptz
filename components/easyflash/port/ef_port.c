@@ -32,13 +32,13 @@
 #include <stm32f10x_conf.h>
 
 /* default environment variables set for user */
-static const ef_env default_env_set[] = {	
-        {"iap_need_copy_app","0"},
-        {"iap_copy_app_size","0"},
+static const ef_env default_env_set[] = {
+        {"iap_need_copy_app","0"}, 
+        {"iap_copy_app_size","0"}, 
         {"stop_in_bootloader","0"},
-        {"device_id","2"},
-        {"boot_times","0"},
-		
+        {"device_id","3"},         
+        {"boot_times","0"},        
+		    
 };
 
 static char log_buf[128];

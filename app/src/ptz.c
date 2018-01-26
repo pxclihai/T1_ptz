@@ -185,7 +185,7 @@ void ptz_control(motor_t *motor ,mode_t mode,u16 pos)
 }
 void ptz_auto(motor_t *motor ,mode_t mode,u16 min,u16 max)
 {
-	motor->run_status = mode;
+	motor->run_status  = mode;
   motor->auto_max    = max;
  	motor->auto_min    = min;
 }
